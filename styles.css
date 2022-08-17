@@ -30,7 +30,7 @@ body {
 .image {
     background: url(./images/image-product-desktop.jpg);
     background-position: left;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 50%;
     height: 100%;
