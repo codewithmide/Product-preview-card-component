@@ -101,16 +101,12 @@ button {
     gap: 1rem;
     color: hsl(0, 0%, 100%);
     background-color: hsl(158, 36%, 37%);
+    font-weight: 700;
 }
 
 button:hover {
     background-color: hsl(212, 21%, 14%);
     cursor: pointer;
-}
-
-.cart {
-    color: hsl(0, 0%, 100%);
-    font-weight: 700;
 }
 
 .attribution {
@@ -132,8 +128,8 @@ button:hover {
     }
     .image {
         background-image: url(./images/image-product-mobile.jpg);
-        background-position: top center;
-        background-size: contain;
+        background-position: center;
+        background-size: cover;
         background-repeat: no-repeat;
         width: 100%;
         height: 40%;
